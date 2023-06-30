@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: parse-args
+Version: 2.0.0
+Summary: Parse Command Line Arguments From String
+Home-page: UNKNOWN
+Author: Pixelsuft
+License: MIT
+Description: # Pixelsuft Parse Arguments
+        Parse Command Line Arguments From String
+        # Change Log
+        Added ```set``` Function For Getting String From Arguments
+        # Example
+        ```
+        from parse_args import get as get_args
+        from parse_args import set as get_str
+        print(str(get_args('   test.exe /f /m --file "lol lol.txt"   --test 1 2')))
+        print(get_str(['test.exe', '-F', 'test.txt lol']))
+        ```
+        Output:<br />
+        ['test.exe', '/f', '/m', '--file', 'lol lol.txt', '--test', '1', '2']<br />
+        "test.exe" "-F" "test.txt lol"
+        
+Keywords: parse_args
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown

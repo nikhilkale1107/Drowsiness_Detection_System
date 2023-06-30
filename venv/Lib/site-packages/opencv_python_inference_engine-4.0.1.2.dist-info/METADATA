@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: opencv-python-inference-engine
+Version: 4.0.1.2
+Summary: Wrapper package for OpenCV with Inference Engine python bindings
+Home-page: https://github.com/banderlog/opencv-python-inference-engine
+Maintainer: Kabakov Borys
+License: MIT, BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: C++
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Software Development
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# README
+
+This is a pre-built OpenCV 4.0.1 with [dldt](https://github.com/opencv/dldt) 2018_R5 module package for Python3.
+
+Contrib modules, ffmpeg/gstreamer and haarcascades are not included.
+
+**Why:**
+There is a [guy with an exellent pre-built set of OpenCV packages](https://github.com/skvark/opencv-python), but they are all came without [dldt module](https://github.com/opencv/dldt).
+
+

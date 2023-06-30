@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.cfg
+setup.py
+wav_win_sound/__init__.py
+wav_win_sound/play_sound.exe
+wav_win_sound.egg-info/PKG-INFO
+wav_win_sound.egg-info/SOURCES.txt
+wav_win_sound.egg-info/dependency_links.txt
+wav_win_sound.egg-info/requires.txt
+wav_win_sound.egg-info/top_level.txt
