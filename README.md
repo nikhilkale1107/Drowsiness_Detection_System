@@ -1,0 +1,1 @@
+The Drowsiness Detection System is a saftey technology that can prevent accidents by detecting a person's eyes are closed for a few seconds, This system will alert the driver when drowsiness is detected# Drowsiness_Detection_System
